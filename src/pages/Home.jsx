@@ -525,7 +525,7 @@ export default function Home() {
             >
               <div className="relative shimmer-effect overflow-hidden rounded-3xl">
                 <img
-                  src="public/image/image.avif"
+                  src="/image/image.avif"
                   alt="Community tree planting"
                   className="rounded-3xl shadow-2xl"
                 />
