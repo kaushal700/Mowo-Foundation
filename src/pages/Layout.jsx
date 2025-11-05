@@ -25,6 +25,9 @@ export default function Layout({ children, currentPageName }) {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+  useEffect(() => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}, [location.pathname]);
 
   const navigation = [
     { name: "Home", path: createPageUrl("Home") },
