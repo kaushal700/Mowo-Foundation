@@ -16,7 +16,7 @@ export default function Layout({ children, currentPageName }) {
     const favicon = document.querySelector("link[rel*='icon']") || document.createElement('link');
     favicon.type = 'image/png';
     favicon.rel = 'shortcut icon';
-    favicon.href = 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6905e92607f555030b948140/f01e29b81_Screenshot_24-removebg-preview.png';
+    favicon.href = '/image/favicon.png';
     document.getElementsByTagName('head')[0].appendChild(favicon);
 
     const handleScroll = () => {
