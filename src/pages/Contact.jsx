@@ -98,7 +98,7 @@ export default function Contact() {
 
         <div className="absolute inset-0">
           <img 
-            src="public/image/contact-hero-img.jpg" 
+            src="/image/contact-hero-img.jpg" 
             alt="Contact us"
             className="w-full h-full object-cover"
           />

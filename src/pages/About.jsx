@@ -368,7 +368,7 @@ export default function About() {
             >
               <div className="relative shimmer-card overflow-hidden rounded-3xl">
                 <img
-                  src="public/image/image.avif"
+                  src="/image/image.avif"
                   alt="Community planting"
                   className="rounded-3xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
                 />
