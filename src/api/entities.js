@@ -1,7 +1,7 @@
-import { base44 } from './base44Client';
+import { mowo } from './mowoClient';
 
 
 
 
 // auth sdk:
-export const User = base44.auth;
+export const User = mowo.auth;
